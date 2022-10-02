@@ -14,13 +14,13 @@
     - title: PhD in CSE
       institution: Michigan State University, USA
       year: 2022 - Now
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
     - title: B.Eng in Automation
       institution: Tsinghua University, China
       year: 2018 - 2022
