@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Aochuan Chen
-    - name: Date of Birth
-      value: March 7th 2000
     - name: Languages
       value: English, Chinese
 
@@ -42,12 +40,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2019
-      items: 
-        - Academic Excellence Scholarship by Tsinghua University
     - year: 2021
       items: 
         - Entrepreneurship Excellence Award by Qingshan Capital
+    - year: 2019
+      items: 
+        - Academic Excellence Scholarship by Tsinghua University
+    - year: 2018
+      items: 
+        - Chinese University Entrance Exam Rank 0.01% of Sichuan Province
+    - year: 2017
+      items: 
+        - Chinese Chemistry Olympics 1st Prize of Sichuan Province
 
 - title: Academic Services
   type: nested_list
