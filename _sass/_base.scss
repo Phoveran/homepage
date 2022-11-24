@@ -85,7 +85,6 @@ blockquote {
 }
 
 // Citation
-
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -232,7 +231,6 @@ blockquote {
     transform: rotate(0);
   }
 }
-
 #light-toggle {
   padding: 0;
   border: 0;
@@ -242,6 +240,25 @@ blockquote {
     color: var(--global-hover-color);
   }
 }
+
+// News
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+  padding: -1rem;
+}
+
+.news table th {
+  color: var(--global-text-color);
+  width: 95px;
+}
+
+// here I hack the padding directly
+.news table.table-sm th, table.table-sm td {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 
 // Social (bottom)
 
@@ -260,6 +277,8 @@ blockquote {
         }
       }
     }
+    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
   .contact-note {
     font-size: 0.8rem;
@@ -291,16 +310,15 @@ footer.sticky-bottom {
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
-
 // CV
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
 
@@ -332,7 +350,6 @@ footer.sticky-bottom {
     font-size: 5rem;
   }
 }
-
 .tag-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -350,7 +367,6 @@ footer.sticky-bottom {
     }
   }
 }
-
 .post-list {
   margin: 0;
   margin-bottom: 40px;
@@ -364,12 +380,6 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
-    }
-    .post-tags {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      padding-top: 0.25rem;
-      padding-bottom: 0;
     }
     a {
       color: var(--global-text-color);
@@ -425,7 +435,11 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 100%;
+      height: 140pt;
+      object-fit: cover;
+    }
+    .card-title {
+      color: $black-color;
     }
   }
 
@@ -439,7 +453,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer, .grid-item {
+  .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -486,20 +500,19 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
-      .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
-      }
+      min-height: 110px;
+      margin-bottom: 0.5rem;
       .abbr {
-        height: 2rem;
+        height: 8rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          position: absolute;
+          top: 8px;
+          left: 16px;
           a {
             color: white;
             &:hover {
@@ -585,6 +598,16 @@ footer.sticky-bottom {
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+      .teaser {
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #888;
+        height: 120px;
+        width: 180px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        object-fit: cover;
       }
     }
   }
