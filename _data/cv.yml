@@ -27,7 +27,7 @@
   type: time_table
   contents:
     - title: Research Internship
-      institution: RealAI Research
+      institution: Tsinghua Statistical Artificial Intelligence & Learning Group
       year: 2021 - 2022
 
 # - title: Open Source Projects
@@ -60,3 +60,4 @@
       items: 
         - ICML'22
         - KDD'22
+        - ICASSP'22
