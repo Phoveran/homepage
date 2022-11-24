@@ -2,4 +2,5 @@ github_users:
   - Phoveran
 
 github_repos:
-  - Phoveran/CrowdSourcing
+  - Phoveran/vp-for-adversarial-robustness
+  - OPTML-Group/ILM-VP
