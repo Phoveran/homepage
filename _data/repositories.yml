@@ -2,5 +2,5 @@ github_users:
   - Phoveran
 
 github_repos:
-  - Phoveran/vp-for-adversarial-robustness
   - OPTML-Group/ILM-VP
+  - Phoveran/vp-for-adversarial-robustness
